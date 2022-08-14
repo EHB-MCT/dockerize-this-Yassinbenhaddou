@@ -21,7 +21,7 @@ server.get("/", (req, res) => {
  * @returns {Object} current owner object
  */
 server.get("/owner", (req, res) => {
-  res.json(owner);
+  res.json(owners);
 })
 
 server.listen(PORT, () => {
